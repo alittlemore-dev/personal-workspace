@@ -4,6 +4,20 @@ This roadmap contains the active backlog plus transferred completed capability h
 Calendar, and the Knowledge database. Checked history records what the product already supports;
 unchecked entries remain active work unless a later product decision supersedes them.
 
+## Telegram Bot
+
+- [ ] Notifications
+  - [ ] Birthdays and dates
+  - [ ] Events
+- [ ] Quick add
+  - [ ] Queue for all added items with predicted category
+  - [ ] Special text format for knowledge database items
+  - [ ] Special text format for TODO items
+  - [ ] Scrap links
+    - [ ] Recipes category
+    - [ ] Places category
+    - [ ] Watch later category
+
 ## Resume
 
 - [x] Resume
@@ -48,6 +62,11 @@ unchecked entries remain active work unless a later product decision supersedes 
   - [ ] Person birthdays
   - [ ] Memorable Dates
   - [ ] One-time or recurring Events
+
+## TODOs
+
+- [ ] CRUD for TODOs
+- [ ] separated TODO lists
 
 ## Knowledge database
 

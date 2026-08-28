@@ -24,10 +24,8 @@ UI route.
 - Do not perform any git action that changes repository state unless I explicitly ask for it. This includes `git add`, `git commit`, `git push`, `git stash`, branch creation, branch switching, rebasing, merging, resetting, checking out files, and similar mutating operations.
 - For non-trivial tasks, create and follow a structured implementation plan before changing code or
   configuration. Trivial docs-only edits and direct answers do not require a plan.
-- Keep `docs/TODO.md` limited to concrete tasks, ideas, and improvements. Do not use it to restate
-  architecture, quality, security, workflow, or other `AGENTS.md` rules as checklist items. A
-  completed item may be added retroactively when it was conceived and implemented before being
-  recorded, so the roadmap retains useful history.
+- In `docs/TODO.md`, a completed item may be added retroactively when it was conceived and implemented
+  before being recorded, so the roadmap retains useful history.
 - Do not leave Superpowers workflow artifact files in the repository. Do not create or retain design
   specs or other Superpowers-generated documentation. A temporary implementation plan may be
   created when required for execution, but delete the plan file before the final response. Preserve
@@ -70,18 +68,9 @@ UI route.
   check whether infrastructure, documentation, CI/CD, and relevant `AGENTS.md` instructions must be
   updated; keep them consistent with the change.
   - At minimum, search related terms in `docs/`, `.github/`, root README-style files, and nested `AGENTS.md` files before finishing.
-  - Treat every user correction and every explicit generally applicable instruction as a candidate
-    for durable project guidance. At the end of each task, determine whether it is likely to remain
-    useful in future sessions.
-  - Review the applicable `AGENTS.md` files for accuracy and relevance. Recommend only reusable
-    guidance; avoid narrow or task-specific instructions unless they document an important
-    exception or materially improve the description of the codebase, its conventions, or the
-    correct approach to working with the project.
-  - In every final task response, include a separate chat-only `AGENTS.md candidates` section. For
-    each candidate, state the concise proposed rule, the exact `AGENTS.md` file where it belongs,
-    and why recording it would be useful. If there are no candidates, say so explicitly. Proposals
-    may be written in Russian, but content added to an `AGENTS.md` file must be in English. Do not
-    write a candidate to any `AGENTS.md` file until the user explicitly approves it.
+  - In every final task response, include a separate chat-only `AGENTS.md candidates` section. If
+    there are no candidates, say so explicitly.
+  - Proposals may be written in Russian, but content added to an `AGENTS.md` file must be in English.
   - If no documentation, infrastructure, CI/CD, or instruction updates are needed, mention that check in the final response.
 - Use existing `make` targets for installation, checks, tests, migrations, and local runs when available instead of calling lower-level tools directly.
 - Never bypass Make targets for tests or checks. Test, lint, type-check, security, format-check,
