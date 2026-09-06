@@ -9,14 +9,55 @@ unchecked entries remain active work unless a later product decision supersedes 
 - [ ] Notifications
   - [ ] Birthdays and dates
   - [ ] Events
-- [ ] Quick add
-  - [ ] Queue for all added items with predicted category
-  - [ ] Special text format for knowledge database items
-  - [ ] Special text format for TODO items
+- [ ] Quick add (only with buttons)
   - [ ] Scrap links
     - [ ] Recipes category
     - [ ] Places category
     - [ ] Watch later category
+
+## Finance tracker
+
+- [ ] Categories
+- [ ] CRUD for income and expences items
+- [ ] Limits
+  - [ ] Initial balance amount
+  - [ ] Set limits to expences (no solid limits, only soft notifications about limits overdraft)
+  - [ ] Shows limits overdraft 
+- [ ] Telegram bot integration
+  - [ ] Quick add
+- [ ] Per-user settings
+  - [ ] Workspace statistic chosen period
+- [ ] Workspace
+  - [ ] Statistic
+    - [ ] Main page
+      - [ ] 2 vertical bar charts with initial balance amount and balance at the end of the period
+      - [ ] 2 separated tables - income and expences with columns: category name, estimated (limit), actual, diff (estimated minus actual)
+      - [ ] 2 horizontal bar charts for income: estimated and actual
+      - [ ] 2 horizontal bar charts for expences: estimated and actual
+    - [ ] Income
+      - [ ] Dynamic by previous periods
+      - [ ] Pie chart by categories
+    - [ ] Expences
+      - [ ] Dynamic by previous periods
+      - [ ] Pie chart by categiries
+    - [ ] Periods
+      - [ ] this month (only current month)
+      - [ ] this year (only current year)
+      - [ ] this week (only current week)
+      - [ ] this day (only today)
+      - [ ] last week (7 days to current date)
+      - [ ] last month (30 days to current date)
+      - [ ] last year (365 days to cuurent date)
+      - [ ] save filter preset in settings
+
+## Per-user settings
+
+- [ ] One page with all settings
+- [ ] Themes
+  - [ ] Light/Dark
+  - [ ] General Color schema (affect markdown editor and preview too)
+- [ ] Layout
+  - [ ] Workspace items opened or closed
 
 ## Resume
 
@@ -67,6 +108,8 @@ unchecked entries remain active work unless a later product decision supersedes 
 
 - [ ] CRUD for TODOs
 - [ ] separated TODO lists
+- [ ] Telegram bot integration
+  - [ ] Quick add
 
 ## Knowledge database
 
